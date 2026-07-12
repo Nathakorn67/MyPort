@@ -1,8 +1,13 @@
-num1 = int(input("first number: ")) #เลขตัวที่1
-num2 = int(input("Second number: ")) #เลขตัวที่2
+# โค้ดเวอร์ชันใหม่ของฉัน
+# พัฒนาจากต้นแบบ โดย: ณฐกร
 
-area = num1 * num2
-per = 2 * (num1 * num2)
+width = 5
+length = 10
 
-print("พื้นที่คือ ", area)
-print("เส้นรอบรูปคือ ", per)
+area = width * length
+perimeter = 2 * (width + length)
+
+print("Width =", width)
+print("Length =", length)
+print("Area =", area)
+print("Perimeter =", perimeter)
